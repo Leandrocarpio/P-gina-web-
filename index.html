@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LG Landings - Landings que Venden</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="site-nav">
+        <div class="container-fluid nav-inner">
+            <a class="brand" href="#home"><i class="bi bi-lightning-fill"></i> LG Landings</a>
+            <button class="nav-toggle" aria-expanded="false" aria-label="Menú"><i class="bi bi-list"></i></button>
+            <ul class="nav-list">
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#proceso">Proceso</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#faq">Preguntas</a></li>
+                <li><a href="about.html">CV</a></li>
+                <li><a href="#" class="nav-cta" onclick="redirectWhatsApp(event)"><i class="bi bi-whatsapp"></i> Contactar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- CTA Flotante WhatsApp -->
+    <a href="https://wa.me/542616123777?text=Hola%20Leo%2C%20me%20interesa%20saber%20m%C3%A1s%20sobre%20tus%20landings" target="_blank" rel="noopener" class="whatsapp-float">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <!-- Hero -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="hero-title">Landings que Venden</h1>
+                    <p class="hero-subtitle">Tu negocio crece. Tu web también.</p>
+                    <p class="hero-desc">Desarrollo landings profesionales diseñadas para convertir visitantes en clientes. Entrega en 1-3 semanas según tu contenido.</p>
+                    <div class="hero-ctas">
+                        <button class="btn btn-primary" onclick="redirectWhatsApp(event)"><i class="bi bi-whatsapp"></i> Comenzar mi proyecto</button>
+                        <a href="#servicios" class="btn btn-outline-light">Ver qué ofrezco</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="hero-image">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=500&fit=crop" alt="Desarrollador frontend" class="img-fluid rounded-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problema / Solución -->
+    <section id="problema" class="py-6 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title">¿Tu negocio crece pero tu web no?</h2>
+                    <p class="lead text-muted">Muchos emprendedores tienen un gran producto pero una web que no vende.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="problem-card">
+                        <i class="bi bi-exclamation-circle"></i>
+                        <h5>Sin presencia online</h5>
+                        <p>Tu competencia sí tiene web y tú no. Pierdes clientes sin saberlo.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="problem-card">
+                        <i class="bi bi-graph-down"></i>
+                        <h5>Baja conversión</h5>
+                        <p>Tienes tráfico pero no convierte. Tu web no está optimizada.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="problem-card">
+                        <i class="bi bi-clock"></i>
+                        <h5>Demasiado lento</h5>
+                        <p>Agencias cobran 2-3x más. Esperas meses. Quieres algo rápido.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- La Solución -->
+    <section id="solucion" class="py-6">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="section-title">La Solución</h2>
+                    <p class="lead">Landings profesionales diseñadas para emprendedores que quieren escalar sin complicaciones.</p>
+                    <ul class="solution-list">
+                        <li><i class="bi bi-check-circle-fill"></i> Landing profesional en 1-3 semanas</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Optimizada para conversión y móviles</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Soporte continuo los primeros 30 días</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Con dominio + hosting incluido</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Precio transparente: $350 USD</li>
+                    </ul>
+                    <button class="btn btn-primary mt-4" onclick="redirectWhatsApp(event)"><i class="bi bi-whatsapp"></i> Cotizar ahora</button>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1460925895917-aaf4d92aad4d?w=500&h=400&fit=crop" alt="Analytics" class="img-fluid rounded-4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pack / Servicios -->
+    <section id="servicios" class="py-6 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title">Pack: Landing que Vende</h2>
+                    <p class="lead">Todo lo que necesitas para lanzar tu negocio online.</p>
+                </div>
+            </div>
+
+            <!-- Pricing Card -->
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Landing Profesional</h3>
+                            <div class="price">$350 <span>USD</span></div>
+                            <p class="price-desc">Entrega en 1-3 semanas según tu contenido</p>
+                        </div>
+                        <ul class="features-list">
+                            <li><i class="bi bi-check-circle"></i> Landing personalizada y responsiva</li>
+                            <li><i class="bi bi-check-circle"></i> Dominio .ar o .com por 1 año</li>
+                            <li><i class="bi bi-check-circle"></i> Hosting con Hostinger por 1 año</li>
+                            <li><i class="bi bi-check-circle"></i> Certificado SSL (HTTPS seguro)</li>
+                            <li><i class="bi bi-check-circle"></i> Email corporativo personalizado</li>
+                            <li><i class="bi bi-check-circle"></i> Integración WhatsApp directo</li>
+                            <li><i class="bi bi-check-circle"></i> Google Analytics configurado</li>
+                            <li><i class="bi bi-check-circle"></i> Optimización de velocidad</li>
+                            <li><i class="bi bi-check-circle"></i> Soporte 30 días post-lanzamiento</li>
+                        </ul>
+                        <button class="btn btn-primary btn-lg w-100" onclick="redirectWhatsApp(event)"><i class="bi bi-whatsapp"></i> Comenzar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- No Incluye -->
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto">
+                    <div class="no-includes">
+                        <h5><i class="bi bi-info-circle"></i> No Incluye</h5>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p><i class="bi bi-x-circle"></i> Actualizaciones después de 30 días</p>
+                                <p><i class="bi bi-x-circle"></i> Cambios de dominio/hosting</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p><i class="bi bi-x-circle"></i> Fotos profesionales</p>
+                                <p><i class="bi bi-x-circle"></i> Copywriting (textos)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline / Proceso -->
+    <section id="proceso" class="py-6">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title">Cómo Funciona</h2>
+                    <p class="lead">Un proceso simple y transparente.</p>
+                </div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">1</div>
+                    <div class="timeline-content">
+                        <h5><i class="bi bi-chat-dots"></i> Briefing</h5>
+                        <p>Nos conectamos por WhatsApp. Entiendes tu negocio, objetivos y contenido.</p>
+                        <small>Día 1</small>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">2</div>
+                    <div class="timeline-content">
+                        <h5><i class="bi bi-pencil-square"></i> Diseño & Desarrollo</h5>
+                        <p>Creo tu landing con diseño profesional, optimizada para conversión.</p>
+                        <small>Semana 1-2</small>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">3</div>
+                    <div class="timeline-content">
+                        <h5><i class="bi bi-rocket"></i> Testing & Lanzamiento</h5>
+                        <p>Testeo todo. Configuramos dominio, hosting y ajustes finales.</p>
+                        <small>Semana 2-3</small>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">4</div>
+                    <div class="timeline-content">
+                        <h5><i class="bi bi-hand-thumbs-up"></i> Soporte</h5>
+                        <p>30 días de soporte directo. Ajustes, respuestas, optimizaciones.</p>
+                        <small>30 días post-lanzamiento</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="py-6 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title">Mis Proyectos</h2>
+                    <p class="lead">Landings reales que crecen negocios.</p>
+                </div>
+            </div>
+
+            <div class="row" id="projects-list">
+                <!-- Cargados dinámicamente desde GitHub -->
+                <div class="col-12 text-center">
+                    <p class="text-muted"><i class="bi bi-hourglass-split"></i> Cargando proyectos...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="py-6">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title">Lo que dicen mis clientes</h2>
+                    <p class="lead">Resultados reales de negocios que crecen.</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="testimonial-text">"Leo entregó mi landing en tiempo record. En la primera semana ya tuve mis primeras ventas. No tenía idea de que era tan importante tener una página profesional."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&h=50&fit=crop" alt="Cliente">
+                            <div>
+                                <strong>Martín Rodríguez</strong>
+                                <small>Emprendedor, Mendoza</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="testimonial-text">"Buscaba algo rápido y profesional. Leo no solo me entregó la landing, sino que me asesoró sobre cómo optimizarla. Muy recomendado."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=50&h=50&fit=crop" alt="Cliente">
+                            <div>
+                                <strong>Sofía García</strong>
+                                <small>Pyme, Buenos Aires</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="testimonial-text">"No esperaba que fuera tan fácil. Leo explicó todo y resolvió mis dudas al instante. La entrega fue antes de lo prometido."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&h=50&fit=crop" alt="Cliente">
+                            <div>
+                                <strong>Juan Pablo López</strong>
+                                <small>Coach Digital, CABA</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="testimonial-text">"Tenía miedo de invertir en web pero Leo me convenció. Ahora me pregunto por qué no lo hice antes. Mi conversión subió 300%."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=50&h=50&fit=crop" alt="Cliente">
+                            <div>
+                                <strong>Carolina Silva</strong>
+                                <small>Ecommerce, Rosario</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-6 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title">Preguntas Frecuentes</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    ¿Cuánto tarda realmente?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Entre 1-3 semanas según la cantidad de contenido que tengas. Si me pasas todo listo, 1 semana. Si necesitas ajustes sobre la marcha, puede tomar un poco más. Lo importante es que salga perfecto.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    ¿Incluye copywriting (textos)?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    No. Tú proporciones los textos. Yo me encargo del diseño, estructura y que todo venda. Pero puedo asesorarte si necesitas ayuda.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    ¿Qué pasa después de 30 días?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    El soporte incluido es por 30 días. Después, puedes mantener tu landing sin gastar nada más (ya que dominio y hosting son de 1 año). Si necesitas cambios mayores, hablamos sobre opciones.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    ¿Puedo cambiar cosas después?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Claro. En los 30 días de soporte incluido, todos los cambios que quieras. Después, puedo ayudarte con una tarifa por hora o puedes aprender a hacerlo tú mismo (todo está documentado).
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                    ¿Eres de Argentina?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Sí, soy de Mendoza. Trabajo con clientes de toda Argentina y Latinoamérica vía WhatsApp y videollamadas. Zona horaria: GMT-3.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                                    ¿Métodos de pago?
+                                </button>
+                            </h2>
+                            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Transferencia bancaria, Paypal, Mercado Pago o efectivo (si eres de Mendoza). Hablamos los detalles por WhatsApp.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="py-6 cta-final">
+        <div class="container text-center">
+            <h2>¿Listo para tu landing?</h2>
+            <p class="lead">Comenzamos esta semana. Entrega en 1-3 semanas. Resultados garantizados.</p>
+            <button class="btn btn-light btn-lg" onclick="redirectWhatsApp(event)"><i class="bi bi-whatsapp"></i> Conectemos por WhatsApp</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h6><i class="bi bi-lightning-fill"></i> LG Landings</h6>
+                    <p>Landings que venden para emprendedores en crecimiento.</p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Enlaces</h6>
+                    <ul class="footer-links">
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="about.html">CV</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6>Contacto</h6>
+                    <p><a href="mailto:leo_gabriel_carpio@hotmail.com"><i class="bi bi-envelope"></i> leo_gabriel_carpio@hotmail.com</a></p>
+                    <p><a href="https://wa.me/542616123777" target="_blank"><i class="bi bi-whatsapp"></i> +54 261 6123777</a></p>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="footer-credit">© 2025 LG Landings. Desarrollado con pasión. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+        function redirectWhatsApp(e) {
+            e.preventDefault();
+            window.open('https://wa.me/542616123777?text=Hola%20Leo%2C%20me%20interesa%20saber%20m%C3%A1s%20sobre%20tus%20landings%20y%20me%20gustar%C3%ADa%20cotizar', '_blank');
+        }
+    </script>
+</body>
+</html>
