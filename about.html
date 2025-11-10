@@ -3,194 +3,224 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leandro Carpio - Especialista en Landings Frontend</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>Leandro Carpio - Desarrollador Frontend</title>
+    <meta name="description" content="CV de Leandro Carpio — Desarrollador Frontend especializado en landings y sitios optimizados para conversión.">
+    <meta property="og:title" content="Leandro Carpio - Desarrollador Frontend">
+    <meta property="og:description" content="CV de Leandro Carpio — Desarrollador Frontend especializado en landings y sitios optimizados para conversión.">
+    <meta property="og:image" content="img/CV.jpg">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="styles-about.css">
 </head>
 <body>
-    <!-- Navbar -->
+    <!-- NAVBAR -->
     <nav class="site-nav">
-        <div class="container-fluid nav-inner">
-            <a class="brand" href="index.html"><i class="bi bi-lightning-fill"></i> LG Landings</a>
-            <button class="nav-toggle" aria-expanded="false"><i class="bi bi-list"></i></button>
+        <div class="container nav-inner">
+            <a class="brand" href="index.html"><i class="bi bi-code-slash"></i> Diseño Web LC</a>
             <ul class="nav-list">
-                <li><a href="index.html#servicios">Servicios</a></li>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="index.html#portfolio">Portfolio</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="index.html#oferta">Oferta</a></li>
+                <li><a href="contact.html" class="nav-cta"><i class="bi bi-envelope"></i> Contacto</a></li>
             </ul>
         </div>
     </nav>
 
-    <main class="cv-root">
-        <!-- Header CV -->
-        <header class="cv-header">
-            <div class="cv-header-inner">
-                <div class="photo">
-                    <img src="" alt="Leandro Carpio">
+    <!-- CV HEADER -->
+    <section class="cv-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="profile-photo">
+                    <img src="img/CV.jpg" alt="Leandro Carpio">
                 </div>
-                <div class="info">
-                    <h1 class="name">Leandro Gabriel Carpio</h1>
-                    <p class="role"><i class="bi bi-lightning-fill"></i> Especialista en Landings Frontend</p>
-                    <p class="contact">
-                        <i class="bi bi-envelope"></i> leo_gabriel_carpio@hotmail.com • 
-                        <i class="bi bi-whatsapp"></i> +54 261 6123777 • 
-                        <i class="bi bi-github"></i> github.com/leocarpiotombino
-                    </p>
-                </div>
-            </div>
-        </header>
-
-        <!-- Propuesta de Valor -->
-        <section class="value-proposition">
-            <h2>Mi Especialidad</h2>
-            <p><strong>Creo landings profesionales que convierten visitantes en clientes.</strong> Me especializo en desarrollo frontend de alta calidad con enfoque en conversión, velocidad y experiencia de usuario. Trabajo con emprendedores y pymes que quieren escalar sus negocios sin complicaciones.</p>
-            <div class="value-highlights">
-                <div class="highlight">
-                    <i class="bi bi-rocket-takeoff"></i>
-                    <p><strong>Entrega rápida:</strong> 1-3 semanas según contenido</p>
-                </div>
-                <div class="highlight">
-                    <i class="bi bi-graph-up"></i>
-                    <p><strong>Optimizado para conversión:</strong> Diseño pensado en resultados</p>
-                </div>
-                <div class="highlight">
-                    <i class="bi bi-phone"></i>
-                    <p><strong>Mobile-first:</strong> Perfecto en todos los dispositivos</p>
-                </div>
-                <div class="highlight">
-                    <i class="bi bi-hand-thumbs-up"></i>
-                    <p><strong>Soporte incluido:</strong> 30 días post-lanzamiento</p>
+                <div class="header-info">
+                    <h1>Leandro Gabriel Carpio</h1>
+                    <div class="role"><i class="bi bi-code-slash"></i> Desarrollador Frontend Especializado en Landings</div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="bi bi-envelope"></i>
+                            <a href="mailto:leo_gabriel_carpio@hotmail.com">leo_gabriel_carpio@hotmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-whatsapp"></i>
+                            <a href="https://wa.me/542616123777">+54 261 6123777</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-geo-alt"></i>
+                            Mendoza, Argentina
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Main Content -->
-        <section class="two-columns">
+    <!-- MAIN CONTENT -->
+    <div class="container">
+        <div class="main-content">
+            <!-- LEFT COLUMN -->
             <div class="left">
-                <h3 class="section-title">Experiencia</h3>
-                <div class="item">
-                    <h4>Proyecto Digital Personal – Landings & Frontend</h4>
-                    <span class="meta">2025 – Actual</span>
-                    <ul>
-                        <li>Desarrollo de landings profesionales para emprendedores y pymes.</li>
-                        <li>Implementación de estrategias de UX/UI y optimización de conversión.</li>
-                        <li>Integración de herramientas modernas: formularios, WhatsApp, analytics.</li>
-                    </ul>
+                <!-- RESUMEN -->
+                <div class="cv-section">
+                    <h2><i class="bi bi-star"></i> Resumen Profesional</h2>
+                    <p>Desarrollador Frontend especializado en crear landings y sitios que convierten. Mi enfoque es desarrollar soluciones rápidas, profesionales y de calidad premium para emprendedores y pymes que quieren escalar su presencia digital.</p>
+                    <p style="margin-top: 15px; font-weight: 600; color: var(--primary);">Mi compromiso: Tu éxito es mi éxito. Trabajo con mentalidad de crecimiento, entrego resultados que venden y apoyo el crecimiento de tu marca.</p>
                 </div>
 
-                <h3 class="section-title">Educación</h3>
-                <div class="item">
-                    <h4>Curso Frontend + IA – Municipalidad de Godoy Cruz & UTN-FRM</h4>
-                    <span class="meta">Sep. – Dic. 2025</span>
-                    <ul>
-                        <li>Desarrollo web con HTML5, CSS3, JavaScript ES6+.</li>
-                        <li>Frameworks modernos: React, Bootstrap.</li>
-                        <li>Integración de IA en aplicaciones web.</li>
-                        <li>Buenas prácticas en UX/UI y accesibilidad.</li>
-                    </ul>
-                </div>
-
-                <div class="item">
-                    <h4>Curso IA Workflow 2025 – Big School</h4>
-                    <span class="meta">Ago. 2025</span>
-                    <ul>
-                        <li>Workflows automatizados y aplicaciones sin código.</li>
-                        <li>Optimización de procesos con IA.</li>
-                    </ul>
-                </div>
-
-                <h3 class="section-title">Mindset & Valores</h3>
-                <div class="item">
-                    <ul>
-                        <li><strong>Compromiso con resultados:</strong> Tu éxito es mi éxito.</li>
-                        <li><strong>Aprendizaje continuo:</strong> Me mantengo actualizado en tecnologías.</li>
-                        <li><strong>Comunicación clara:</strong> Explico el proceso sin jerga técnica.</li>
-                        <li><strong>Mentalidad emprendedora:</strong> Entiendo los retos de escalar.</li>
-                    </ul>
-                </div>
-            </div>
-
-            <aside class="right">
-                <h3>Habilidades Técnicas</h3>
-                <ul class="skills">
-                    <li><i class="bi bi-code-slash"></i> HTML5 & CSS3</li>
-                    <li><i class="bi bi-braces"></i> JavaScript ES6+</li>
-                    <li><i class="bi bi-bezier2"></i> React</li>
-                    <li><i class="bi bi-palette"></i> Bootstrap / SASS</li>
-                    <li><i class="bi bi-github"></i> Git & GitHub</li>
-                    <li><i class="bi bi-speedometer"></i> Performance & Accesibilidad</li>
-                </ul>
-
-                <h3>Especialidades</h3>
-                <ul class="skills">
-                    <li><i class="bi bi-lightning"></i> Landing Page Development</li>
-                    <li><i class="bi bi-device-ssd"></i> Responsive Design</li>
-                    <li><i class="bi bi-graph-up"></i> Optimización de Conversión</li>
-                    <li><i class="bi bi-search"></i> SEO Básico</li>
-                    <li><i class="bi bi-palette2"></i> UI/UX Thinking</li>
-                    <li><i class="bi bi-gear"></i> Integración de Herramientas</li>
-                </ul>
-
-                <h3>Herramientas</h3>
-                <ul class="skills">
-                    <li><i class="bi bi-browser-chrome"></i> VS Code</li>
-                    <li><i class="bi bi-diagram-2"></i> Figma</li>
-                    <li><i class="bi bi-server"></i> Hostinger</li>
-                    <li><i class="bi bi-graph-up"></i> Google Analytics</li>
-                    <li><i class="bi bi-cloud"></i> GitHub Pages</li>
-                </ul>
-
-                <h3>Idiomas</h3>
-                <ul class="skills">
-                    <li><i class="bi bi-chat-left"></i> Español – Nativo</li>
-                    <li><i class="bi bi-chat-left"></i> Inglés – Intermedio</li>
-                </ul>
-            </aside>
-        </section>
-
-        <!-- Diferenciadores -->
-        <section class="diferenciadores">
-            <h2>¿Por qué trabajar conmigo?</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="diff-item">
-                        <i class="bi bi-1-circle-fill"></i>
-                        <h5>Entrega Rápida</h5>
-                        <p>1-3 semanas. Sin esperas eternas. Landings listos para vender desde el día 1.</p>
+                <!-- EXPERIENCIA -->
+                <div class="cv-section">
+                    <h2><i class="bi bi-briefcase"></i> Experiencia Profesional</h2>
+                    
+                    <div class="cv-item">
+                        <h3>Proyecto Personal - Diseño Web LC</h3>
+                        <div class="cv-meta">2025 - Actual</div>
+                        <ul>
+                            <li>Desarrollo de landings profesionales para emprendedores y pymes</li>
+                            <li>Implementación de estrategias de UX/UI y optimización de conversión</li>
+                            <li>Integración de herramientas: WhatsApp, Redes Sociales, Google Analytics</li>
+                            <li>Entrega garantizada en 1-2 semanas con soporte post-lanzamiento</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="diff-item">
-                        <i class="bi bi-2-circle-fill"></i>
-                        <h5>Precio Transparente</h5>
-                        <p>$350 USD. Todo incluido. Sin sorpresas. Entiendes exactamente qué recibes.</p>
+
+                <!-- EDUCACIÓN -->
+                <div class="cv-section">
+                    <h2><i class="bi bi-mortarboard"></i> Educación & Certificaciones</h2>
+                    
+                    <div class="cv-item">
+                        <h3>Curso Frontend + IA</h3>
+                        <div class="cv-meta">Municipalidad de Godoy Cruz & UTN-FRM | Sep. - Dic. 2025</div>
+                        <ul>
+                            <li>Desarrollo web: HTML5, CSS3, JavaScript ES6+</li>
+                            <li>Frameworks modernos: React, Bootstrap</li>
+                            <li>Integración de IA en aplicaciones web</li>
+                            <li>Fundamentos de UX/UI y accesibilidad web</li>
+                            <li>Buenas prácticas y optimización de rendimiento</li>
+                        </ul>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="diff-item">
-                        <i class="bi bi-3-circle-fill"></i>
-                        <h5>Apoyo Continuo</h5>
-                        <p>30 días de soporte post-lanzamiento. Estoy ahí cuando me necesites.</p>
+
+                    <div class="cv-item">
+                        <h3>Curso Desarrollo con IA</h3>
+                        <div class="cv-meta">Big School | Oct. 2025</div>
+                        <ul>
+                            <li>Diseño de prompts técnicos para código de calidad</li>
+                            <li>Planificación con "equipos expertos IA"</li>
+                            <li>Automatización de procesos de programación</li>
+                        </ul>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="diff-item">
-                        <i class="bi bi-4-circle-fill"></i>
-                        <h5>Mentalidad de Crecimiento</h5>
-                        <p>No solo creo landings. Ayudo a emprendedores a escalar sus negocios.</p>
+
+                    <div class="cv-item">
+                        <h3>Curso IA Workflow</h3>
+                        <div class="cv-meta">Big School | Sep. 2025</div>
+                        <ul>
+                            <li>Creación de prompts profesionales</li>
+                            <li>Diseño de workflows automatizados</li>
+                            <li>Personalización de GPTs para negocios</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <footer class="cv-footer">
-            <p class="note">© 2025 Leandro Gabriel Carpio | Desarrollador Frontend Especializado en Landings</p>
-        </footer>
-    </main>
+            <!-- RIGHT COLUMN -->
+            <div class="right">
+                <!-- HABILIDADES TÉCNICAS -->
+                <div class="cv-section">
+                    <h2><i class="bi bi-code-slash"></i> Habilidades Técnicas</h2>
+                    <div class="skills-grid">
+                        <span class="skill-badge">HTML5</span>
+                        <span class="skill-badge">CSS3</span>
+                        <span class="skill-badge">JavaScript</span>
+                        <span class="skill-badge">React</span>
+                        <span class="skill-badge">Bootstrap</span>
+                        <span class="skill-badge">Responsive Design</span>
+                        <span class="skill-badge">Git & GitHub</span>
+                        <span class="skill-badge">Performance</span>
+                    </div>
+                </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+                <!-- ESPECIALIDADES -->
+                <div class="cv-section">
+                    <h2><i class="bi bi-lightning"></i> Especialidades</h2>
+                    <div class="skills-grid">
+                        <span class="skill-badge">Landing Pages</span>
+                        <span class="skill-badge">Diseño Web</span>
+                        <span class="skill-badge">UX/UI Thinking</span>
+                        <span class="skill-badge">Conversión</span>
+                        <span class="skill-badge">Mobile-First</span>
+                        <span class="skill-badge">SEO Básico</span>
+                        <span class="skill-badge">Analytics</span>
+                        <span class="skill-badge">Integración IA</span>
+                    </div>
+                </div>
+
+                <!-- HABILIDADES BLANDAS -->
+                <div class="cv-section">
+                    <h2><i class="bi bi-person-check"></i> Habilidades Blandas</h2>
+                    <div class="skills-grid">
+                        <span class="skill-badge">Comunicación Clara</span>
+                        <span class="skill-badge">Trabajo en Equipo</span>
+                        <span class="skill-badge">Aprendizaje Continuo</span>
+                        <span class="skill-badge">Adaptabilidad</span>
+                        <span class="skill-badge">Resolución Práctica</span>
+                        <span class="skill-badge">Mentalidad de Crecimiento</span>
+                    </div>
+                </div>
+
+                <!-- HERRAMIENTAS -->
+                <div class="cv-section">
+                    <h2><i class="bi bi-tools"></i> Herramientas</h2>
+                    <div class="skills-grid">
+                        <span class="skill-badge">VS Code</span>
+                        <span class="skill-badge">Git</span>
+                        <span class="skill-badge">GitHub</span>
+                        <span class="skill-badge">Hostinger</span>
+                        <span class="skill-badge">Google Analytics</span>
+                        <span class="skill-badge">Canva</span>
+                        <span class="skill-badge">IA (ChatGPT, Claude)</span>
+                    </div>
+                </div>
+
+                <!-- IDIOMAS -->
+                <div class="cv-section">
+                    <h2><i class="bi bi-chat-left"></i> Idiomas</h2>
+                    <div class="skills-grid">
+                        <span class="skill-badge">Español - Nativo</span>
+                        <span class="skill-badge">Inglés - Intermedio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h6><i class="bi bi-code-slash"></i> Diseño Web LC</h6>
+                    <p>Landings profesionales para emprendedores que quieren crecer.</p>
+                </div>
+                <div class="footer-col">
+                    <h6>Enlaces</h6>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="index.html#oferta">Oferta</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h6>Contacto</h6>
+                    <p><a href="mailto:leo_gabriel_carpio@hotmail.com"><i class="bi bi-envelope"></i> Email</a></p>
+                    <p><a href="https://wa.me/542616123777" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i> WhatsApp</a></p>
+                    <p><a href="https://github.com/Leandrocarpio" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i> GitHub</a></p>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="footer-credit">© 2025 Diseño Web LC | Desarrollo Frontend Profesional</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="main.js"></script>
 </body>
 </html>

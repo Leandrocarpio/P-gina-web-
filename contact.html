@@ -1,67 +1,212 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contacto - Leandro Carpio</title>
-  <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Diseño Web LC</title>
+    <meta name="description" content="Contactá a Leandro Carpio para tu landing: desarrollo rápido, profesional y optimizado para convertir.">
+    <meta property="og:title" content="Contacto - Diseño Web LC">
+    <meta property="og:description" content="Contactá a Leandro Carpio para tu landing: desarrollo rápido, profesional y optimizado para convertir.">
+    <meta property="og:image" content="img/CV.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles-contact.css">
 </head>
 <body>
-  <nav class="site-nav">
-    <div class="container nav-inner">
-      <a class="brand" href="index.html">Leandro Carpio</a>
-      <button class="nav-toggle" aria-expanded="false" aria-label="Abrir menú">☰</button>
-      <ul class="nav-list">
-        <li><a href="index.html#services">Servicios</a></li>
-        <li><a href="about.html">CV</a></li>
-        <li><a href="index.html#projects">Proyectos</a></li>
-        <li><a href="contact.html">Contacto</a></li>
-      </ul>
-    </div>
-  </nav>
+    <!-- NAVBAR -->
+    <nav class="site-nav">
+        <div class="container nav-inner">
+            <a class="brand" href="index.html"><i class="bi bi-code-slash"></i> Diseño Web LC</a>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#oferta">Oferta</a></li>
+                <li><a href="about.html">CV</a></li>
+            </ul>
+        </div>
+    </nav>
 
-  <section class="py-5">
-    <div class="container">
-      <h1 class="section-title">Contacto</h1>
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="contact-card card p-4">
-            <h3>Hablemos de tu proyecto</h3>
-            <p class="card-text">Completá el formulario y te responderé a la brevedad.</p>
-            <div class="contact-links mt-3">
-              <a class="contact-item" href="mailto:leo_gabriel_carpio@hotmail.com"><i class="bi bi-envelope-fill"></i> leo_gabriel_carpio@hotmail.com</a>
-              <a class="contact-item" href="https://www.linkedin.com/in/leandrocarpio/" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i> LinkedIn</a>
-              <a class="contact-item" href="https://github.com/leocarpiotombino" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a>
+    <!-- CONTACT SECTION -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-header">
+                <h1>Hablemos de tu Proyecto</h1>
+                <p>¿Listo para escalar tu negocio? Cuéntame más y nos conectamos.</p>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="contact-form card p-4">
-            <form id="contact-form">
-              <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre</label>
-                <input id="nombre" name="nombre" class="form-control" placeholder="Tu nombre" required>
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input id="email" name="email" type="email" class="form-control" placeholder="tu@email.com" required>
-              </div>
-              <div class="mb-3">
-                <label for="mensaje" class="form-label">Mensaje</label>
-                <textarea id="mensaje" name="mensaje" class="form-control" rows="5" placeholder="Contame sobre tu proyecto" required></textarea>
-              </div>
-              <div id="contact-feedback"></div>
-              <button type="submit" class="btn-send mt-3">Enviar mensaje</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="main.js"></script>
+            <div class="contact-grid">
+                <!-- CONTACT INFO -->
+                <div class="contact-info-card">
+                    <h2><i class="bi bi-telephone"></i> Contacto Directo</h2>
+                    <p>Respondo rápido. Prefiero hablar directamente contigo para entender tu proyecto.</p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="bi bi-whatsapp"></i>
+                            <div class="contact-method-content">
+                                <h3>WhatsApp</h3>
+                                <p><a href="https://wa.me/542616123777" target="_blank" rel="noopener noreferrer">+54 261 6123777</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <i class="bi bi-envelope"></i>
+                            <div class="contact-method-content">
+                                <h3>Email</h3>
+                                <p><a href="mailto:leo_gabriel_carpio@hotmail.com">leo_gabriel_carpio@hotmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <i class="bi bi-linkedin"></i>
+                            <div class="contact-method-content">
+                                <h3>LinkedIn</h3>
+                                <p><a href="https://www.linkedin.com/in/leandrocarpio/" target="_blank" rel="noopener noreferrer">Leandro Carpio</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <i class="bi bi-github"></i>
+                            <div class="contact-method-content">
+                                <h3>GitHub</h3>
+                                <p><a href="https://github.com/Leandrocarpio" target="_blank" rel="noopener noreferrer">Leandro Carpio</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <p>Sígueme en redes</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/leandrocarpio/" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/Leandrocarpio" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="https://wa.me/542616123777" target="_blank" rel="noopener noreferrer" class="social-icon" title="WhatsApp">
+                                <i class="bi bi-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FORM -->
+                <div class="form-card">
+                    <h2><i class="bi bi-pencil-square"></i> Enviar Mensaje</h2>
+                    <p>Completa el formulario y me pondré en contacto a la brevedad.</p>
+
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo *</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefono">Teléfono (Opcional)</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="+54 261 ...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensaje">Cuéntame sobre tu Proyecto *</label>
+                            <textarea id="mensaje" name="mensaje" placeholder="¿Qué tipo de negocio tenés? ¿Qué necesitas en tu sitio?" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <i class="bi bi-send"></i> Enviar Mensaje
+                        </button>
+
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h6><i class="bi bi-code-slash"></i> Diseño Web LC</h6>
+                    <p>Landings profesionales para emprendedores que quieren crecer.</p>
+                </div>
+                <div class="footer-col">
+                    <h6>Enlaces</h6>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="index.html#oferta">Oferta</a></li>
+                        <li><a href="about.html">CV</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h6>Contacto</h6>
+                    <p><a href="mailto:leo_gabriel_carpio@hotmail.com"><i class="bi bi-envelope"></i> Email</a></p>
+                    <p><a href="https://wa.me/542616123777" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i> WhatsApp</a></p>
+                    <p><a href="https://github.com/Leandrocarpio" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i> GitHub</a></p>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="footer-credit">© 2025 Diseño Web LC | Desarrollo Frontend Profesional</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        const form = document.getElementById('contactForm');
+        const messageDiv = document.getElementById('formMessage');
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const nombre = document.getElementById('nombre').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const mensaje = document.getElementById('mensaje').value.trim();
+
+            if (!nombre || !email || !mensaje) {
+                showMessage('Por favor completa todos los campos requeridos.', 'error');
+                return;
+            }
+
+            if (!validateEmail(email)) {
+                showMessage('Por favor ingresa un email válido.', 'error');
+                return;
+            }
+
+            const submitBtn = form.querySelector('.submit-btn');
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="bi bi-hourglass-split"></i> Enviando...';
+
+            setTimeout(() => {
+                showMessage(`¡Gracias ${nombre}! Recibimos tu mensaje y nos pondremos en contacto pronto. 🚀`, 'success');
+                form.reset();
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = '<i class="bi bi-send"></i> Enviar Mensaje';
+            }, 1500);
+        });
+
+        function validateEmail(email) {
+            const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return re.test(email);
+        }
+
+        function showMessage(text, type) {
+            messageDiv.className = `form-message ${type}`;
+            messageDiv.innerHTML = type === 'success' 
+                ? `<i class="bi bi-check-circle"></i> ${text}` 
+                : `<i class="bi bi-exclamation-circle"></i> ${text}`;
+
+            if (type === 'success') {
+                setTimeout(() => {
+                    messageDiv.style.display = 'none';
+                }, 5000);
+            }
+        }
+    </script>
 </body>
 </html>
