@@ -238,7 +238,6 @@ Desarrollador Frontend Especializado en Landings
 - **WhatsApp**: [+54 261 6123777](https://wa.me/542616123777)
 - **Email**: [leo_gabriel_carpio@hotmail.com](mailto:leo_gabriel_carpio@hotmail.com)
 - **LinkedIn**: [Leandro Carpio](https://www.linkedin.com/in/leandrocarpio/)
-- **Portfolio**: [Diseño Web LC](https://leandrocarpio.github.io/diseño-web-lc/)
 
 ## 📄 Licencia
 
@@ -265,6 +264,6 @@ Este proyecto está bajo la Licencia MIT - ver detalles en el archivo LICENSE.
 ✨ **Hecho con ❤️ por Leandro Carpio**  
 *Desarrollador Frontend | Especialista en Landing Pages*
 
-[📞 Contactar para Proyectos](https://wa.me/542616123777) | [💼 Ver Portfolio](https://leandrocarpio.github.io/diseño-web-lc/)
+[📞 Contactar para Proyectos](https://wa.me/542616123777) | [💼 Ver Portfolio](https://github.com/Leandrocarpio)
 
 </div>
